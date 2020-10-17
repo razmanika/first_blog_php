@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
@@ -22,9 +23,14 @@ Route::get('/', function () {
 
 Route::get('/about', [AboutUsController::class, 'index']);
 
-Route::get('/post', [PostController::class, 'index']);
+Route::get('/posts', [PostController::class, 'index']);
+Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
+Route::get('/posts/{id}', [PostController::class, 'show']); // ფიგურულ ფრჩხილში რდებული აიდი პოსკონტროლერის მეთოდ შოუში მიდის პარამეტრად.
+Route::post('/posts/posts_save', [PostController::class, 'save'])->name('posts.save');
 
-Route::get('/login', [LoginController::class, 'loginCon']);
+
+
+
 
 
 //Route::get('/about_us', [])
