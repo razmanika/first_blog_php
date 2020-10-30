@@ -18,17 +18,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hello World";
+    return "Hello Mam";
 });
 
 Route::get('/about', [AboutUsController::class, 'index']);
 
 Route::get('/posts', [PostController::class, 'index']);
+
 Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
-Route::get('/posts/{id}', [PostController::class, 'show']); // ფიგურულ ფრჩხილში რდებული აიდი პოსკონტროლერის მეთოდ შოუში მიდის პარამეტრად.
+
+Route::get('/posts/{post}', [PostController::class, 'show']); // ფიგურულ ფრჩხილში არსებული აიდი პოსკონტროლერის მეთოდ შოუში მიდის პარამეტრად.
+
 Route::post('/posts/posts_save', [PostController::class, 'save'])->name('posts.save');
 
+Route::get('/posts/{post}/edit', [PostController::class, 'edit'])->name('post.edit'); // აიდის მიხედვით რომ გადავიდეთ შესაბამის პოსტის რედაქტირებაზე
 
+Route::put('/posts/{post}/update', [PostController::class, 'update'])->name('post.update'); // editis გაკეთების შემდეგ რომ დაასეივოს გაგზავნილი რექვესთი
+
+Route::delete('/posts/{post}/delete', [PostController::class, 'delete'])->name('post.delete');
+
+// პოსტები გადავეცით ცვლადად რომელსაც ავტომატურად ჩვენი მოდელიდან მოაქვს ინფო
+// თუ რა აიდი არის პოსტ თეიბლებში
 
 
 

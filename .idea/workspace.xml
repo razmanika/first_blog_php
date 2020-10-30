@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a84fb64-297a-4655-b551-ec9e1eca991a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0242a63-b408-4575-8c3d-b3356102d301.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c0242a63-b408-4575-8c3d-b3356102d301.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_10_162916_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_10_162916_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/Layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,14 @@
       <workItem from="1602778068393" duration="6462000" />
       <workItem from="1602841696498" duration="2346000" />
       <workItem from="1602924935450" duration="305000" />
-      <workItem from="1602942521040" duration="11497000" />
+      <workItem from="1602942521040" duration="12193000" />
+      <workItem from="1603094244471" duration="2414000" />
+      <workItem from="1603198018378" duration="999000" />
+      <workItem from="1603276568522" duration="6034000" />
+      <workItem from="1603299267261" duration="7207000" />
+      <workItem from="1603349102210" duration="950000" />
+      <workItem from="1603545814715" duration="2723000" />
+      <workItem from="1604050661337" duration="8571000" />
     </task>
     <servers />
   </component>
@@ -249,6 +256,10 @@
       <screen x="0" y="26" width="1366" height="742" />
     </state>
     <state x="278" y="58" width="800" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.26.1366.742@0.26.1366.742" timestamp="1601129433523" />
+    <state x="742" y="467" width="426" height="144" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1603198357806">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="742" y="467" width="426" height="144" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/313.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1603198357806" />
     <state width="1320" height="176" key="GridCell.Tab.0.bottom" timestamp="1601131720135">
       <screen x="0" y="26" width="1366" height="742" />
     </state>
@@ -287,6 +298,10 @@
     <state x="529" y="96" width="298" height="599" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.26.1366.742@0.26.1366.742" timestamp="1601129967221" />
     <state x="786" y="1106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1602954228201" />
     <state x="794" y="1106" width="323" height="449" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/265.1080.1366.768/0.0.1920.1080@265.1080.1366.768" timestamp="1602514147569" />
+    <state x="253" y="1130" width="850" height="691" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603302015253">
+      <screen x="0" y="1080" width="1366" height="768" />
+    </state>
+    <state x="253" y="1130" width="850" height="691" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1080.1366.768/0.0.1920.1080@0.1080.1366.768" timestamp="1603302015253" />
     <state x="390" y="1243" width="575" height="465" key="refactoring.ChangeSignatureDialog" timestamp="1602343194895">
       <screen x="0" y="0" width="1920" height="1848" />
     </state>
