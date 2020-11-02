@@ -10,6 +10,9 @@
                 <label class="control-label col-sm-2" for="text">Title:</label>
                 <div class="col-sm-10">
                     <input type="title" class="form-control" id="title" placeholder="Enter text" name="title" value="{{old('title', $post->title)}}">
+                    @error('title')
+                    <li class="error">{{$errors->first('title')}}</li>
+                    @enderror
                 </div>
             </div>
             <div class="form-group">
@@ -17,6 +20,9 @@
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Your text is here</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="body">{{old('body',$post->body)}}</textarea>
+                    @error('title')
+                    <li class="error">{{$errors->first('title')}}</li>
+                    @enderror
                 </div>
 
 

@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a84fb64-297a-4655-b551-ec9e1eca991a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/Layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -224,7 +222,9 @@
       <workItem from="1603299267261" duration="7207000" />
       <workItem from="1603349102210" duration="950000" />
       <workItem from="1603545814715" duration="2723000" />
-      <workItem from="1604050661337" duration="8571000" />
+      <workItem from="1604050661337" duration="9414000" />
+      <workItem from="1604154140612" duration="3266000" />
+      <workItem from="1604315881023" duration="10020000" />
     </task>
     <servers />
   </component>
@@ -244,10 +244,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="311" y="1157" width="734" height="637" key="#Inspections" timestamp="1602354984953">
-      <screen x="0" y="0" width="1920" height="1848" />
+    <state x="634" y="1554" width="523" height="294" key="#Inspections" timestamp="1604318406947">
+      <screen x="413" y="1080" width="1366" height="768" />
     </state>
     <state x="311" y="1157" width="734" height="637" key="#Inspections/0.0.1920.1848@0.0.1920.1848" timestamp="1602354984953" />
+    <state x="634" y="1554" width="523" height="294" key="#Inspections/413.1080.1366.768/0.0.1920.1080@413.1080.1366.768" timestamp="1604318406947" />
     <state x="328" y="26" width="700" height="740" key="#PHP" timestamp="1601128599235">
       <screen x="0" y="26" width="1366" height="742" />
     </state>
@@ -291,13 +292,14 @@
     </state>
     <state x="342" y="1106" key="SettingsEditor/0.1080.1366.768/0.0.1920.1080@0.1080.1366.768" timestamp="1602706753270" />
     <state x="342" y="38" key="SettingsEditor/0.26.1366.742@0.26.1366.742" timestamp="1602322015488" />
-    <state x="786" y="1106" width="323" height="449" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602954228201">
-      <screen x="257" y="1080" width="1366" height="768" />
+    <state x="942" y="1106" width="323" height="470" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604327624694">
+      <screen x="413" y="1080" width="1366" height="768" />
     </state>
     <state x="744" y="0" width="419" height="1080" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1848@0.0.1920.1848" timestamp="1602354660203" />
     <state x="529" y="96" width="298" height="599" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.26.1366.742@0.26.1366.742" timestamp="1601129967221" />
     <state x="786" y="1106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/257.1080.1366.768/0.0.1920.1080@257.1080.1366.768" timestamp="1602954228201" />
     <state x="794" y="1106" width="323" height="449" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/265.1080.1366.768/0.0.1920.1080@265.1080.1366.768" timestamp="1602514147569" />
+    <state x="942" y="1106" width="323" height="470" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/413.1080.1366.768/0.0.1920.1080@413.1080.1366.768" timestamp="1604327624694" />
     <state x="253" y="1130" width="850" height="691" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603302015253">
       <screen x="0" y="1080" width="1366" height="768" />
     </state>

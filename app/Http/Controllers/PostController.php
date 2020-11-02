@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StorePostRequest;
+use App\Http\Requests\UpdatePostRequest;
 use App\Models\Post; // იმისათვის რომ უშუალოდ პოსტის მოდულთან ჰქონდეს კავშირი.
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -29,6 +31,11 @@ class PostController extends Controller
 
     }
 
+    public function postview(Post $post){
+
+        return view('postview')->with('post', $post);
+    }
+
 
     public function create(){
 
@@ -36,10 +43,9 @@ class PostController extends Controller
     }
 
 
-    public function save(Request $request){
+    public function save(StorePostRequest $request){
 
         $post = new Post($request->all());
-
         $post->save();
 
         return redirect()->back();
@@ -54,7 +60,7 @@ class PostController extends Controller
         return view('edit')->with('post', $post); // და შესაბამისი პოსტს ვაგზავნით html-ში
     }
 
-    public function update(Request $request, Post $post){ // დავიჭიროთ გამოგზავნილი რექვესთი შესაბამისი პოსტის
+    public function update(UpdatePostRequest $request, Post $post){ // დავიჭიროთ გამოგზავნილი რექვესთი შესაბამისი პოსტის
 
 //        $post = Post::findOrfail($postid); // ანალოგიურად შესაბამისი პოსტი
         $post->update($request->all()); // დატაბაზაში ვააბდეითებთ რექვესთიდან შემოსულ მთლიან ინფოს
