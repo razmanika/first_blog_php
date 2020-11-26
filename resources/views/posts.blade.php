@@ -1,6 +1,7 @@
 @extends('layouts.Layout')
 @section('content')
     <p class="createpost"><a href="{{route('posts.create')}}">Create New Post</a></p>
+    <p class="createpost"><a href="{{route('welcomep')}}">Home</a></p>
     <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
     @if (Route::has('login'))
         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">

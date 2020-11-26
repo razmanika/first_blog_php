@@ -16,6 +16,12 @@ class Post extends Model
         'likes'
     ];
 
+
+    public function user(){
+
+        return $this->belongsTo(User::class);
+    }
+
     public function getPosts(){
 
 

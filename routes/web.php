@@ -1,9 +1,9 @@
 <?php
 
 use App\Http\Controllers\AboutUsController;
-use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PostController;
+use App\Http\Middleware\TestMiddleWare;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,8 +18,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "Hello Mam";
-});
+    return view('welcome');
+})->name('welcomep');//->middleware(TestMiddleWare::class);
+//Route::get('/', [PostController::class, 'index'])->middleware(TestMiddleWare::class);
 
 Route::get('/about', [AboutUsController::class, 'index']);
 
@@ -39,6 +40,20 @@ Route::delete('/posts/{post}/delete', [PostController::class, 'delete'])->name('
 
 Route::get('/posts/{post}/view', [PostController::class, 'postview'])->name('post.view');
 
+Route::get('/login', [LoginController::class, 'getLogin'])->name('get.login');
+
+Route::post('/post_login', [LoginController::class, 'login'])->name('login');
+
+Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 // პოსტები გადავეცით ცვლადად რომელსაც ავტომატურად ჩვენი მოდელიდან მოაქვს ინფო
 // თუ რა აიდი არის პოსტ თეიბლებში
 
@@ -46,3 +61,6 @@ Route::get('/posts/{post}/view', [PostController::class, 'postview'])->name('pos
 
 
 //Route::get('/about_us', [])
+
+
+
